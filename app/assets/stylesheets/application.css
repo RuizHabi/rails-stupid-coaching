@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+ div {
+  height: 60px;
+  padding: 20px;
+  background-color: white;
+  border-left: 10px solid black;
+  margin: 10px;
+}
+
+
+
+.coach {
+  height: 70px;
+  padding: 20px;
+  background-color: rgb(250, 216, 154);
+  border-left: 10px solid black;
+  margin: 10px;
+}
