@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- div {
+ div.response {
   height: 60px;
   padding: 20px;
   background-color: white;
@@ -21,10 +21,18 @@
   margin: 10px;
 }
 
+h1 {
+  padding-top: 5%;
+}
+
+form {
+  padding-top: 10%;
+}
 
 
 .coach {
   height: 70px;
+  width: 500px;
   padding: 20px;
   background-color: rgb(250, 216, 154);
   border-left: 10px solid black;

@@ -1,6 +1,17 @@
-<h1>Your Question:</h1>
-<div><p><%= @question %></p></div>
-<h1>Coach's Response:</h1>
-<p class= "coach"><%= @answer %></p>
+<div class="container">
+  <div class="row justify-content-center align-self-center">
+    <h1>Your Question:</h1>
+  </div>
+  <div class="response">
+    <p><%= @question %></p>
+  </div>
 
-<button><%= link_to "Ask a new question" ,  ask_path %></button>
+  <div class="row">
+    <h1>Coach's Response:</h1>
+  </div>
+  <div class="coach" >
+    <p><%= @answer %></p>
+  </div>
+
+  <button type="button" class="btn btn-info"><%= link_to "Ask a new question" ,  ask_path %></button>
+</div>
